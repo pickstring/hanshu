@@ -14,6 +14,10 @@ void swap1(int &num1, int &num2) {
 	num2 = temp;
 }
 
+int max(int a, int b) {
+	return a > b ? a : b;
+}
+
 int main() {
 	int a = 10, b = 20;
 	swap(a, b);
