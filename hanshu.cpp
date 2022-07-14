@@ -18,11 +18,18 @@ int max(int a, int b) {
 	return a > b ? a : b;
 }
 
+int min(int a, int b);
+
 int main() {
 	int a = 10, b = 20;
 	swap(a, b);
 	cout << a << b << endl;
 	swap1(a, b);
 	cout << a << b << endl;
+	cout << min(a, b);
 	return 0;
+}
+
+int min(int a, int b) {
+	return a < b ? a : b;
 }
